@@ -1,0 +1,53 @@
+
+
+
+Problem: 
+
+Write a program that takes the user's age and prints the ticket price based on the following rules:
+
+60 years and above  = $8
+18 to 59 = $15
+5 to 17 years = $10
+Below 5 years = Free 
+
+
+
+Example Input/Output:
+Input: 12
+
+Output: Ticket price: $10
+
+Input: 65 
+
+Output: Ticket price: $8
+
+
+let ages;
+ages = 12;
+
+if(ages>=65){
+    console.log("The Ticket price is $8");
+}
+
+else if(ages>=18){
+    console.log("The Ticket price is $15");
+
+}
+
+else if(ages>=5){
+    Console.log("The Ticket price is $10");
+}
+
+else{
+    console.log("The Ticket price is free");
+}
+
+
+=====================================Data Structure...........................
+
+
+Types of Array..........
+
+1. 1D Array (Index Array)
+2. 2D Array 
+3. Associative Array (Objective Array)
